@@ -55,5 +55,11 @@ make run
 make build
 ```
 
+## Limitations
+
+1. The program does not properly handle redirects, which could allow an attacker to redirect users to a malicious website.
+2. The program does not validate the authenticity of social media links, which could allow an attacker to create fake links that appear to be from legitimate social media accounts.
+3. The program does not properly handle errors, which could allow an attacker to crash the program or gain access to sensitive information.
+
 Currently, it supports Twitter, Facebook, Instagram and Tiktok without any API keys.
 Will Support other Socila Media In Future..

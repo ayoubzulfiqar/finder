@@ -18,7 +18,7 @@ func Visitor(visitURL string, maxDepth int) []string {
 	c.UserAgent = UserAgent
 	c.SetRequestTimeout(5 * time.Second)
 	c.MaxDepth = maxDepth
-	c.AllowURLRevisit = false //there is a bug in colly that prevents this from working. We have to check it manually
+	c.AllowURLRevisit = false
 	u, err := url.Parse(visitURL)
 	if err != nil {
 		panic(err)

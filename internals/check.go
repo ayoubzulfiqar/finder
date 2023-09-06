@@ -130,5 +130,4 @@ func CheckTakeOver(socialLinks []string) {
 			}
 		}
 	}
-	// return
 }
